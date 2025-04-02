@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* main */
+
+#form p{
+    color: green;
+    font-size: 22px;
+}
+
+#resultado p{
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#resultado-final{
+    text-align: center;
+}
+
+.delbtn{
+    border-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    color: rgb(60, 57, 224);
+    padding: 0px;
+    border: 0px;
+}
+
+/* login */
+
+#login h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#login label{
+    font-size: 16px;
+    font-weight: bold;
+}
