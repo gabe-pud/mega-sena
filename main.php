@@ -65,7 +65,7 @@
         <hr>
         <div id="resultado">
             <?php
-            
+
             $acertos = 0;
             $numeros = array(); 
             $tentativas = array();
@@ -134,6 +134,7 @@
 
             if (isset($_POST['apostar'])) {
 
+                mkdir("./apostas", 0777, TRUE);
                 $nmarquivo = date("m-d-Y_H-i-s");
                 $nome = "./apostas/" . $nmarquivo . ".txt";
                 
